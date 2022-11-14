@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Caveat:wght@400;600&family=Creepster&family=Cutive+Mono&family=Fredericka+the+Great&family=Fuzzy+Bubbles:wght@400;700&family=Henny+Penny&family=Love+Ya+Like+A+Sister&family=Monoton&family=Permanent+Marker&family=Pinyon+Script&family=Quintessential&family=Roboto:wght@100;300&family=Rubik+Dirt&family=Rubik+Distressed&family=Rubik+Maze&family=Rubik+Moonrocks&family=Vast+Shadow&display=swap');
+:root{
+    --Roboto: 'Bungee Inline', cursive;
+    --FuzzyBubbles: 'Bungee Shade', cursive;
+    --Caveat: 'Caveat', cursive;
+    --PermanentMarker: 'Creepster', cursive;
+    --Monoton: 'Cutive Mono', monospace;
+    --CutiveMono: 'Fredericka the Great', cursive;
+    --FrederickatheGreat: 'Fuzzy Bubbles', cursive;
+    --PinyonScript: 'Henny Penny', cursive;
+    --Quintessential: 'Love Ya Like A Sister', cursive;
+    --Creepster: 'Monoton', cursive;
+    --HennyPenny: 'Permanent Marker', cursive;
+    --BungeeInline: 'Pinyon Script', cursive;
+    --RubikDirt: 'Quintessential', cursive;
+    --RubikDistressed: 'Roboto', sans-serif;
+    --RubikMaze: 'Rubik Dirt', cursive;
+    --RubikMoonrocks: 'Rubik Distressed', cursive;
+    --BugeeShade: 'Rubik Maze', cursive;
+    --LoveYaLikeAsister: 'Rubik Moonrocks', cursive;
+    --VastShadow : 'Vast Shadow', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+    text-decoration: none;
+}
+body{
+    line-height: 2rem;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/* start header */
+.header{
+    width: 100%;
+    height: 90vh;
+    background-image:url(/img/photo_2022-11-09_00-17-02.jpg);
+    background-size: 100% 100%;
+}
+.navigation{
+    background: radial-gradient(at center, rgb(244, 243, 240),rgb(54, 43, 53));
+    width: 100%;
+    height: 5rem;
+    box-shadow: 8px 8px 8px dimgray;
+}
+.navbar{
+        display: flex;
+        justify-content:space-between ;
+}
+.logo{
+       margin-top: 1%;
+}
+.logo a{
+        font-size: 2rem;
+        text-transform:initial;
+        font-family:var(--RubikMaze);
+        margin-left:1rem;
+}
+.logo .fa-bars{
+      font-size: 1.5rem;
+}
+.navbar__nav{
+       margin-top: 0.8%;
+}
+.navbar__nav a{
+        background-color:rgb(164, 161, 161);
+        color: rgb(63, 63, 85);
+        font-size: 1.5rem;
+        font-family:var(--RubikMaze);
+        box-shadow: 10px 10px 5px dimgray;
+        margin-right: 1rem;
+        padding: 0.2rem 0.4rem;
+        border-radius: 10px;
+        cursor: pointer;
+}
+.navbar__nav .fa-arrow-right-from-bracket{
+        color: black;
+        font-size: 1.5rem;
+}
+.banner{
+    margin-left:0%;
+}
+.banner h1{
+   text-transform:capitalize;
+   font-family:var(--RubikDistressed);
+   color: rgb(36, 33, 33);
+   font-size: 2rem;
+   letter-spacing: 3px;
+}
+.banner p{
+    font-size: 1.5rem;
+    color: rgb(54, 54, 45);
+    text-transform:capitalize ;
+    margin-left: 8%;
+    font-family:var(--RubikDistressed);
+    letter-spacing: 3px;
+}
+.banner button{
+    font-family:var(--RubikDistressed);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    background:rgba(0,0,0,0);
+    color: rgb(78, 70, 70);
+    border: 1px solid rgb(8, 8, 6);
+    margin-left: 18%;
+}
+   /* header end */
+.social__media{
+    padding: 4.8rem;
+    width: 100%;
+    background-image:url(/img/photo_2022-11-09_00-28-26.jpg);
+    background-size: 100% 100%;
+}
+.media__content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+    margin: 0 auto;
+}
+.media__item{
+    cursor: pointer;
+}
+.media__img1{
+    width: 150px;
+    height: 150px;
+    border: 5px solid  dimgray;
+    border-radius: 100%;
+    background-image: url(/img/free-icon-download-3747092.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.media__img2{
+    width: 150px;
+    height: 150px;
+    border: 5px solid  dimgray;
+    border-radius: 100%;
+    background-image: url(/img/spyware.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat:no-repeat;
+     margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.media__img3{
+    width: 150px;
+    height: 150px;
+    border: 5px solid  dimgray;
+    border-radius: 100%;
+    background-image: url(/img/hand.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+     margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.media__img4{
+    width: 150px;
+    height: 150px;
+    border: 5px solid  dimgray;
+    border-radius: 100%;
+    background-image: url(/img/shopping-cart.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+     margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.media__item .title{
+    text-align: center;
+    text-transform:capitalize;
+    font-family:var(--RubikDirt);
+    letter-spacing: 2px;
+}
+.media__img1::after{
+    position: absolute;
+    content: '';
+    width: 14%;
+    height: 3px;
+    background:repeating-linear-gradient(90deg, transparent 0, transparent 50%, dimgray 50%,
+     dimgray 100%) ;
+     background-size: 30px;
+     margin-top: 4%;
+     margin-left: 8.5%;
+} 
+.media__img2::after{
+    position: absolute;
+    content: '';
+    width: 14%;
+    height: 3px;
+    background:repeating-linear-gradient(90deg, transparent 0, transparent 50%, dimgray 50%,
+     dimgray 100%) ;
+     background-size: 30px;
+     margin-top: 4%;
+     margin-left: 8.5%;
+}
+.media__img3::after{
+    position: absolute;
+    content: '';
+    width: 14%;
+    height: 3px;
+    background:repeating-linear-gradient(90deg, transparent 0, transparent 50%, dimgray 50%,dimgray 100%) ;
+     background-size: 30px;
+     margin-top: 4%;
+     margin-left: 8.5%;
+}
+   /* .portfolio */
+.portfolio{
+    padding: 4.8rem;
+    background-image: url(/img/photo_2022-11-09_00-28-26.jpg);
+}
+.portfolio__title{
+    margin-bottom: 5rem;
+}
+.portfolio__title h2{
+    text-align: center;
+    font-family:var(--VastShadow);
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 5%;
+}
+.portfolio__content{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 1rem;
+   margin: 0 auto;
+}
+.portrfolio__item{
+    cursor: pointer;
+}
+.portfolio__img1{
+    width: 450px;
+    height: 450px;
+    border: 5px solid  dimgray;
+    border-radius: 100%;
+    background-image: url(/img/3.jpg);
+    background-position: center;
+}
+.portfolio__img2 {
+    width: 450px;
+    height: 450px;
+    border: 5px solid  rgb(232, 222, 222);
+    border-radius: 100%;
+    background-image: url(/img/photo_2022-11-09_19-24-06.jpg);
+    background-position: center;
+}
+.portfolio__img3{
+    width: 450px;
+    height: 450px;
+    border: 5px solid  rgb(109, 57, 22);
+    border-radius: 100%;
+    background-image: url(/img/book4.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+.portfolio__title h2{
+    text-align: center;
+    font-family:var(--VastShadow);
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-top: 8%;
+}
+.portrfolio__item .title{
+    text-align: center;
+    font-family:var(--VastShadow);
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-top: 8%;
+}
+.portfolio button{
+    margin: auto;
+    padding: 0.2rem  0.8rem;
+    font-family:var(--RubikMoonrocks);
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    text-transform:capitalize;
+    margin-left: 37%;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+/* books */
+.books{
+    padding: 4.8rem;
+    background-image: url(/img/photo_2022-11-09_00-28-26.jpg);
+}
+.books__title{
+    margin-bottom: 5rem;
+}
+.books__title h2{
+    text-align: center;
+    font-family:var(--VastShadow);
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 5%;
+}
+.books__content{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 1rem;
+margin: 0 auto;
+}
+.books__item{
+    text-align: center;
+    background-color:rgb(180, 173, 173);
+    font-family:var(--Caveat);
+    text-transform:capitalize;
+    font-size: 1.5rem;
+}
+.books__price{
+    text-align: center;
+    font-family:var(--Caveat);
+    background-color: rgb(225, 211, 211);
+    width: 90%;
+    margin: 0 auto;
+}
+.books__price  span {
+display: block;
+margin-left: 5%;
+text-transform:capitalize ;
+text-align:left;
+}
+.books__price p{
+    margin-top: 6rem;
+display: block;
+text-align:center;
+font-size: 2rem;
+}
+.books__item p{
+    margin-bottom:0.5rem;
+}
+.books__price span input{
+    width: 15px;
+    height:20px;
+}
+/* testimonials */
+.about{
+    padding: 4.8rem;
+    background-image: url(/img/photo_2022-11-09_00-28-26.jpg);
+}
+.about__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+
+}
+.about__item {
+    cursor:pointer;
+}
+.about__item h2{
+    text-transform:capitalize;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    text-align:center;
+}
+.about__img {
+    display: flex;
+    justify-content: space-between;
+}
+.about__img img{
+    width: 200px;
+    height: 150px;
+    border-radius: 100%;
+}
+.about__img P{
+    font-size: 1rem;
+    color: rgb(54, 54, 45);
+    text-transform:capitalize ;
+    margin-left: 8%;
+    font-family:var(--RubikDistressed);
+    letter-spacing: 3px;
+}
+.about__item h3{
+    text-transform:capitalize;
+    margin-top: 1rem;
+    font-size: 2rem; 
+    margin-left: 65%;
+}
+.about__item span{
+    text-transform:capitalize;
+    font-size: 1.5rem; 
+    margin-left: 65%;
+   margin-top: 1.5rem;
+   margin-bottom: 5rem;
+}
+.about__item a{
+    text-transform:capitalize;
+    font-size: 1rem; 
+    margin-left: 82%;
+}
+.about__content button{
+    margin: auto;
+    padding: 0.2rem  0.8rem;
+    font-family:var(--RubikDirt);
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    text-transform:capitalize;
+    margin-left: 27%;
+    font-size: 1rem;
+}
+/* pay */
+.pay{
+padding: 4.8rem;
+background-image: url(/img/photo_2022-11-09_00-28-26.jpg);
+}
+.pay__content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin: 0 auto;
+}
+.pay__item {
+    background-color:rgb(180, 173, 173);
+   cursor: pointer;
+   padding: 30px;
+   border-radius: 20px;
+   text-align: center;
+}
+
+.pay__card{
+   background-color: rgb(227, 217, 217);
+   width: 100%;
+   height: 90%;
+   padding: 18px;
+   border-top: 6px solid rgb(75, 75, 75);
+}
+.pay__item h2{
+    text-align: center;
+    font-family:var(--VastShadow);
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 3px;
+    margin-bottom: 5%;
+}
+.pay__card p{
+    font-family:var(--VastShadow);
+text-align:justify;
+}
+.pay__card ul{
+    text-align:left;
+    font-family:var(--VastShadow);
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-top: 3px;
+    margin-bottom: 5%;
+
+}
+.pay__card  p span{
+    color: blue;
+
+}
+.pay button{
+    margin: auto;
+    padding: 0.2rem  0.8rem;
+    font-family:var(--RubikDirt);
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    text-transform:capitalize;
+    border-radius: 8px;
+    margin-left: 36%;
+    font-size: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+}
+/* footer */
+
+.footer__content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    margin: 0 auto;
+}
+.footer__item{
+   cursor:grab;
+   border-top: 4px solid dimgray;
+   padding: 20px;
+}
+.footer__item a{
+    display: block;
+    line-height: 1.6;
+    text-transform:capitalize;
+    letter-spacing: 1px;
+    font-family:var(--Monoton);
+    font-size: 1.5rem;
+    opacity: 7;
+    transition: all 0.5s linear;
+}
+.footer__item a :hover{
+ opacity: 2;
+ font-weight: 900;  
+}
+.footer__item:nth-child(4){
+    display: flex;
+    justify-content: center;
+}
+.footer__item:nth-child(4) a{
+    margin-left: 20px;
+    font-size: 2rem;
+
+}
+ .footer address{
+    margin-top: 5%;
+    margin-left: 35%;
+ }
+
+

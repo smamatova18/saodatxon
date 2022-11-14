@@ -1,0 +1,146 @@
+@media screen and (max-width:768px) {
+    .logo a{
+        font-size: 1.5rem;
+        text-transform:initial;
+        font-family:var(--RubikMaze);
+        margin-left:1rem;
+}
+.navbar__nav a{
+    background-color:rgb(164, 161, 161);
+    color: rgb(63, 63, 85);
+    font-size: 1rem;
+    font-family:var(--RubikMaze);
+    box-shadow: 10px 10px 5px dimgray;
+    margin-right: 1rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.media__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+    margin: 0 auto;
+}
+.portfolio__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1rem;
+    margin: 0 auto;
+ }
+ .portfolio button{
+    margin: auto;
+    padding: 0.2rem  0.8rem;
+    font-family:var(--RubikMoonrocks);
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    text-transform:capitalize;
+    margin-left: 0%;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+.portfolio__img1{
+    width: 350px;
+    height: 350px;
+    border: 5px solid  dimgray;
+    border-radius: 100%;
+    background-image: url(/img/3.jpg);
+    background-position: center;
+}
+.portfolio__img2 {
+    width: 350px;
+    height: 350px;
+    border: 5px solid  rgb(232, 222, 222);
+    border-radius: 100%;
+    background-image: url(/img/photo_2022-11-09_19-24-06.jpg);
+    background-position: center;
+}
+.portfolio__img3{
+    width: 350px;
+    height: 350px;
+    border: 5px solid  rgb(109, 57, 22);
+    border-radius: 100%;
+    background-image: url(/img/book4.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+
+.books__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1rem;
+    margin: 0 auto;
+    }
+    .about__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 1rem;
+       
+    }
+    .about__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about__img P{
+        font-size: 0.8rem;
+        color: rgb(54, 54, 45);
+        text-transform:capitalize ;
+        margin-left: 0%;
+        font-family:var(--RubikDistressed);
+        letter-spacing: 3px;
+    }
+    .about__item h3{
+        text-transform:capitalize;
+        margin-top: 1rem;
+        font-size: 2rem; 
+      text-align: center;
+    }
+    .about__item span{
+        text-transform:capitalize;
+        font-size: 1.5rem; 
+        margin-left: 20%;
+       margin-top: 1.5rem;
+       margin-bottom: 5rem;
+       
+    }
+    .about__item a{
+        text-transform:capitalize;
+        font-size: 1rem; 
+        margin-left: 62%;
+    }
+    .pay__content {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 1rem;
+        margin: 0 auto;
+    }
+    .pay button{
+        margin: auto;
+        padding: 0.2rem  0.8rem;
+        font-family:var(--RubikDirt);
+        letter-spacing: 3px;
+        word-spacing: 7px;
+        text-transform:capitalize;
+        border-radius: 8px;
+        margin-left: 6%;
+        font-size: 1rem;
+        margin-top: 6rem;
+        margin-bottom: 10rem;
+    }
+    .footer__content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+        
+    }
+    .footer__item{
+        cursor:grab;
+        border-top: 4px solid dimgray;
+        padding: 10px;
+     }
+
+}
